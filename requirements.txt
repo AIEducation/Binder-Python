@@ -1,3 +1,2 @@
 numpy==1.15.4
 pandas==0.22.0
-turtles==1.0.0 
