@@ -15,4 +15,4 @@ x = preprocess_input(x)
 preds = model.predict(x)
 
 plt.imshow(img)
-print('Predicted:', decode_predictions(preds, top=3)[0])
+print('Распознаное фото:', decode_predictions(preds, top=1)[0][0][1])
