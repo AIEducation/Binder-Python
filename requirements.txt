@@ -1,4 +1,6 @@
 numpy==1.15.4
 pandas==0.22.0
 tensorflow
+matplotlib
+pillow
 keras==2.3.1
